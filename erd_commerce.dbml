@@ -1,11 +1,16 @@
 
-Table products {
-  product_id integer
-  product_line text
-  text_description text
-  html_description text
-  image text
+ TABLE products {
+  product_code text 
+  product_name text
+  product_line text 
+  product_scale text
+  product_vendor text
+  product_description text
+  quantity_in_stock integer
+  buy_price numeric
+  msrp numeric
 }
+
 
 Table customers {
   customer_number integer
